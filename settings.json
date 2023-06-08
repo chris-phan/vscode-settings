@@ -1,0 +1,82 @@
+{
+	"code-runner.runInTerminal": true,
+	"C_Cpp.updateChannel": "Insiders",
+	"editor.tabCompletion": "on",
+	"editor.snippetSuggestions": "top",
+	"git.enableSmartCommit": true,
+	// Is git enabled
+	"git.enabled": true,
+
+	// Path to the git executable
+	"git.path": "D:\\Program Files\\Git\\bin\\git.exe",
+	"liveServer.settings.donotShowInfoMsg": true,
+	"workbench.editor.untitled.hint": "hidden",
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"prettier.singleQuote": true,
+	"prettier.tabWidth": 4,
+	"prettier.useTabs": true,
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"C_Cpp.default.compilerPath": "D:/usr/bin/g++",
+
+	// other settings
+
+	// Vim jk to exit
+	"vim.insertModeKeyBindings": [
+		{
+			"before": ["j", "k"],
+			"after": ["<esc>"]
+		}
+	],
+
+	"vim.whichwrap": "b,s,h,l,<,>",
+
+	// Disable italics
+	"editor.tokenColorCustomizations": {
+		"[Tokyo Night Storm]": {
+			"textMateRules": [
+				{
+					"scope": [
+						"comment",
+						"meta.var.expr storage.type",
+						"keyword.control.flow",
+						"keyword.control.return",
+						"meta.directive.vue punctuation.separator.key-value.html",
+						"meta.directive.vue entity.other.attribute-name.html",
+						"tag.decorator.js entity.name.tag.js",
+						"tag.decorator.js punctuation.definition.tag.js",
+						"storage.modifier"
+					],
+					"settings": {
+						"fontStyle": ""
+					}
+				}
+			]
+		}
+	},
+	"editor.formatOnSave": true,
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+	"oneDarkPro.italic": false,
+	"workbench.colorTheme": "One Dark Pro",
+	"C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4 }",
+	"[python]": {
+		"editor.formatOnType": true
+	},
+	"window.zoomLevel": 1,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"eslint.validate": ["javascript"]
+	
+}
